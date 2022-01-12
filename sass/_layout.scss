@@ -8,9 +8,14 @@
 }
 
 .header {
+  font-size: 1.4rem;
   height: 7rem;
   background-color: #fff;
   border-bottom: var(--clr-grey-light-2);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .content {
@@ -20,9 +25,37 @@
 .sidebar {
   background-color: var(--clr-grey-dark-1);
   flex: 0 0 18%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .hotel-view {
-  background-color: #fff;
+  background-color: orange;
   flex: 1;
+  height: 80rem; // Test only, remove later
+}
+
+///////////////////////////////////////
+// Side Navigation
+.side-nav {
+
+  &__item {
+  }
+
+  &__link {
+  }
+
+  &__icon {
+      width: 1.75rem;
+      height: 1.75rem;
+  }
+}
+
+.legal {
+    font-size: 1.2rem;
+    color: var(--clr-grey-light-4);
+    text-align: center;
+    padding: 2.5rem;
 }
