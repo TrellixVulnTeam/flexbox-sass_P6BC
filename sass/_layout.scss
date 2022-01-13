@@ -34,7 +34,7 @@
 .hotel-view {
   flex: 1;
   // height: 80rem; // Test only, remove later
-  background-color: yellowgreen; //Test only
+  // background-color: yellowgreen; //Test only
 }
 
 .detail {
@@ -54,6 +54,11 @@
 }
 
 .user-reviews {
-  background-color: yellowgreen;
+  // background-color: yellowgreen;
   flex: 1;
+  font-size: 1.4rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
